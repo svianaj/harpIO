@@ -103,7 +103,7 @@ get_fa_param_info <- function(param, fa_type="arome", fa_vector=TRUE, rotate_win
       "rain" = if (fa_type=="alaro") c("SURFPREC.EAU.GEC", "SURFPREC.EAU.CON")
                else "SURFACCPLUIE",
       #
-#      "sfc_geo" = "SPECSURFGEOPOTEN",
+      "sfc_geo" = "SPECSURFGEOPOTEN",
       # accumulated radiation fields:
       "strd"  = ,
       "lwrad" = "SURFRAYT THER DE",  # thermal
